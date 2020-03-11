@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/tvAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="alamat"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/tvJK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="jenis kelamin"
+        android:padding="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:id="@+id/btnDelete"
+            android:backgroundTint="#000"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:id="@+id/btnEdit"
+            android:backgroundTint="#000"/>
+    </LinearLayout>
+
+</LinearLayout>
